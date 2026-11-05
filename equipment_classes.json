@@ -1,0 +1,437 @@
+{
+ "_note": "worldMax = largest real fleet of any country (game data military.json); the console add_equipment cap per call",
+ "classes": {
+  "mbt": {
+   "name": "Main battle tanks",
+   "worldMax": 5000
+  },
+  "ifv": {
+   "name": "Armored fighting vehicles",
+   "worldMax": 25000
+  },
+  "arty": {
+   "name": "Artillery & rocket launchers",
+   "worldMax": 21000
+  },
+  "fighter": {
+   "name": "Fighter aircraft",
+   "worldMax": 1850
+  },
+  "bomber": {
+   "name": "Bombers & heavy strike",
+   "worldMax": 200
+  },
+  "attackHeli": {
+   "name": "Attack helicopters",
+   "worldMax": 900
+  },
+  "transportHeli": {
+   "name": "Transport helicopters",
+   "worldMax": 3500
+  },
+  "transportAir": {
+   "name": "Transport & tankers",
+   "worldMax": 950
+  },
+  "drone": {
+   "name": "Combat drones",
+   "worldMax": 1800
+  },
+  "carrier": {
+   "name": "Aircraft carriers",
+   "worldMax": 11
+  },
+  "sub": {
+   "name": "Submarines",
+   "worldMax": 78
+  },
+  "destroyer": {
+   "name": "Destroyers & frigates",
+   "worldMax": 92
+  },
+  "corvette": {
+   "name": "Corvettes & patrol craft",
+   "worldMax": 150
+  },
+  "amphib": {
+   "name": "Amphibious ships",
+   "worldMax": 60
+  },
+  "missile": {
+   "name": "Ballistic & cruise missiles",
+   "worldMax": 2400
+  },
+  "launcher": {
+   "name": "Missile launchers",
+   "worldMax": 160
+  },
+  "sam": {
+   "name": "Long-range air defense",
+   "worldMax": 1500
+  },
+  "satellite": {
+   "name": "Military satellites",
+   "worldMax": 130
+  }
+ },
+ "techModels": [
+  {
+   "node": "military.mbt.g3",
+   "classId": "mbt",
+   "modelId": "mbt_g3",
+   "year": 2000,
+   "quality": 4.0
+  },
+  {
+   "node": "military.mbt.g4",
+   "classId": "mbt",
+   "modelId": "mbt_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.mbt.g5",
+   "classId": "mbt",
+   "modelId": "mbt_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.mbt.g6",
+   "classId": "mbt",
+   "modelId": "mbt_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.ifv.g3",
+   "classId": "ifv",
+   "modelId": "ifv_g3",
+   "year": 2000,
+   "quality": 4.0
+  },
+  {
+   "node": "military.ifv.g4",
+   "classId": "ifv",
+   "modelId": "ifv_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.ifv.g5",
+   "classId": "ifv",
+   "modelId": "ifv_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.ifv.g6",
+   "classId": "ifv",
+   "modelId": "ifv_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.arty.g3",
+   "classId": "arty",
+   "modelId": "arty_g3",
+   "year": 2000,
+   "quality": 4.0
+  },
+  {
+   "node": "military.arty.g4",
+   "classId": "arty",
+   "modelId": "arty_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.arty.g5",
+   "classId": "arty",
+   "modelId": "arty_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.arty.g6",
+   "classId": "arty",
+   "modelId": "arty_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.fighter.g4",
+   "classId": "fighter",
+   "modelId": "fighter_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.fighter.g5",
+   "classId": "fighter",
+   "modelId": "fighter_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.fighter.g6",
+   "classId": "fighter",
+   "modelId": "fighter_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.bomber.g4",
+   "classId": "bomber",
+   "modelId": "bomber_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.bomber.g5",
+   "classId": "bomber",
+   "modelId": "bomber_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.bomber.g6",
+   "classId": "bomber",
+   "modelId": "bomber_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.attackHeli.g4",
+   "classId": "attackHeli",
+   "modelId": "attackHeli_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.attackHeli.g5",
+   "classId": "attackHeli",
+   "modelId": "attackHeli_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.attackHeli.g6",
+   "classId": "attackHeli",
+   "modelId": "attackHeli_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.drone.g4",
+   "classId": "drone",
+   "modelId": "drone_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.drone.g5",
+   "classId": "drone",
+   "modelId": "drone_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.drone.g6",
+   "classId": "drone",
+   "modelId": "drone_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.corvette.g4",
+   "classId": "corvette",
+   "modelId": "corvette_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.corvette.g5",
+   "classId": "corvette",
+   "modelId": "corvette_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.corvette.g6",
+   "classId": "corvette",
+   "modelId": "corvette_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.destroyer.g4",
+   "classId": "destroyer",
+   "modelId": "destroyer_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.destroyer.g5",
+   "classId": "destroyer",
+   "modelId": "destroyer_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.destroyer.g6",
+   "classId": "destroyer",
+   "modelId": "destroyer_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.amphib.g4",
+   "classId": "amphib",
+   "modelId": "amphib_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.amphib.g5",
+   "classId": "amphib",
+   "modelId": "amphib_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.amphib.g6",
+   "classId": "amphib",
+   "modelId": "amphib_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.sub.g4",
+   "classId": "sub",
+   "modelId": "sub_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.sub.g5",
+   "classId": "sub",
+   "modelId": "sub_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.sub.g6",
+   "classId": "sub",
+   "modelId": "sub_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.carrier.g4",
+   "classId": "carrier",
+   "modelId": "carrier_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.carrier.g5",
+   "classId": "carrier",
+   "modelId": "carrier_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.carrier.g6",
+   "classId": "carrier",
+   "modelId": "carrier_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.missile.g4",
+   "classId": "missile",
+   "modelId": "missile_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.missile.g5",
+   "classId": "missile",
+   "modelId": "missile_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.missile.g6",
+   "classId": "missile",
+   "modelId": "missile_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.launcher.g4",
+   "classId": "launcher",
+   "modelId": "launcher_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.launcher.g5",
+   "classId": "launcher",
+   "modelId": "launcher_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.launcher.g6",
+   "classId": "launcher",
+   "modelId": "launcher_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.sam.g4",
+   "classId": "sam",
+   "modelId": "sam_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.sam.g5",
+   "classId": "sam",
+   "modelId": "sam_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.sam.g6",
+   "classId": "sam",
+   "modelId": "sam_g6",
+   "year": 2040,
+   "quality": 6.0
+  },
+  {
+   "node": "military.satellite.g4",
+   "classId": "satellite",
+   "modelId": "satellite_g4",
+   "year": 2012,
+   "quality": 4.8
+  },
+  {
+   "node": "military.satellite.g5",
+   "classId": "satellite",
+   "modelId": "satellite_g5",
+   "year": 2024,
+   "quality": 5.5
+  },
+  {
+   "node": "military.satellite.g6",
+   "classId": "satellite",
+   "modelId": "satellite_g6",
+   "year": 2040,
+   "quality": 6.0
+  }
+ ],
+ "_note2": "techModels: tech nodes with an equipmentModel effect (from simulation-worker.bundle.js). New stock uses the same rule as the game (r5): country technology.baseline.equipmentModels[class] or <class>.baseline.400/2000/4.0, upgraded by researched nodes (progress>=100); originKey = player."
+}
